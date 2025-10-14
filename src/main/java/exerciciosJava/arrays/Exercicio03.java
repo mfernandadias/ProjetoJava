@@ -9,6 +9,6 @@ public class Exercicio03 {
 
         a média é obtida somendo todos os números e dividindo pelo total
          */
-        
+
     }
 }
