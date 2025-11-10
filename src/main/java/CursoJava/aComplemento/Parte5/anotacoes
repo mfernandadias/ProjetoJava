@@ -1,0 +1,35 @@
+1 - List
+O que é: uma coleção ordenada(mantém a posição dos elementos)
+Permite elementos repetidos
+Você pode acessar os elementos pelo índice (posição)
+
+Principais implementações
+ArrayList -> mais usada, rápida para leitura
+LinkedList -> melhor para inserções e remoções frequentes
+
+
+2 - Set
+O que é uma coleção que não permite elementos repetidos
+Não possui índice, e geralemente não mantém a ordem (dependente da implementação)
+
+Princiapais Implementações
+HashSet -> não garante ordem
+LinkedHashSet -> mantém a ordem de inserção
+TreeSet -> mantém em ordem alfabética/natural
+
+3 - Map
+O que é: Uma coleção que armazena pares de chave -> valor
+Exemplo: CPF -> nome, ID -> produto, código -> descrição
+As chaves são únicas, mas os valores podem se repetir
+
+Principais implementações
+HashMap -> mais rápido, sem ordem
+LinkedHashMap -> mantém a ordem de inserção
+TreeMap -> ordena pelas chaves
+
+Resumo Rápido
+| Estrutura | Permite repetição? | Mantém ordem? | Acesso por índice? | Exemplo de uso |
+| --------- | ------------------ | ------------- | ------------------ | -------------- |
+| **List**  | ✅ Sim              | ✅ Sim         | ✅ Sim              | Lista de nomes |
+| **Set**   | ❌ Não              | ⚠️ Depende    | ❌ Não              | Emails únicos  |
+| **Map**   | 🔑 Chave única     | ⚠️ Depende    | ❌ Não              | CPF → Nome     |

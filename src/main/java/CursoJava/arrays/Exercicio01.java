@@ -1,4 +1,4 @@
-package exerciciosJava.arrays;
+package CursoJava.arrays;
 
 public class Exercicio01 {
     /*

@@ -1,5 +1,4 @@
-package exerciciosJava.arrays;
-import java.util.Arrays;
+package CursoJava.arrays;
 
 public class Exercicio02 {
     public static void main(String[] args){

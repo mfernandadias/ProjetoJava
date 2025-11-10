@@ -1,4 +1,4 @@
-package exerciciosJava.arrays.matrizes;
+package CursoJava.arrays.matrizes;
 
 public class Exemplo02 {
     public static void main(String[] args){
