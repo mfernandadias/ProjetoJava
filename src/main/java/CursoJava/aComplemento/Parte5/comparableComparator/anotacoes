@@ -1,0 +1,14 @@
+1️⃣ Comparable
+O que é
+Interface usada para definir uma ordem natural dos objetos de uma classe
+A classe que implementa Comparable precisa sobrescrever o método compareTo()
+Permite que objetos sejam ordenados automaticamente por métodos como
+Collections.sort() ou Arrays.sort()
+
+Método Principal:
+int compareTo(T o)
+Retorna:
+     < 0 → este objeto é menor que o outro.
+      0 → este objeto é igual ao outro.
+     > 0 → este objeto é maior que o outro.
+
