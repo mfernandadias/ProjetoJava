@@ -1,0 +1,42 @@
+# **10 Exercícios Básicos**
+
+1. Escreva um método que receba uma string e retorne seu comprimento.
+2. Crie um método que receba uma string e retorne o primeiro e o último caractere concatenados.
+3. Escreva um programa que inverta uma string.
+4. Verifique se uma string contém outra substring.
+5. Receba uma string e retorne a mesma em maiúsculas e minúsculas.
+6. Remova os espaços no início e no fim de uma string.
+7. Substitua todas as ocorrências de um caractere por outro em uma string.
+8. Dada uma data no formato `"dd/mm/aaaa"`, divida-a em dia, mês e ano e retorne um array.
+9. Conte quantas vezes um caractere aparece em uma string.
+10. Compare duas strings e retorne verdadeiro caso sejam iguais ignorando maiúsculas e minúsculas.
+
+---
+
+# ⚙️ **10 Exercícios Intermediários**
+
+1. Receba uma frase e transforme-a em uma frase onde cada palavra começa com letra maiúscula.
+2. Remova todas as vogais de uma string.
+3. Gere o acrônimo de uma frase usando a primeira letra de cada palavra.
+4. Valide se uma string está no formato de telefone `(xx) xxxx-xxxx` ou `(xx) xxxxx-xxxx`.
+5. Remova caracteres consecutivos repetidos em uma string.
+6. Retorne o texto que está entre dois marcadores dentro de uma string.
+7. Converta uma string no formato `camelCase` para palavras separadas com espaços.
+8. Verifique se uma frase é um palíndromo ignorando espaços e letras maiúsculas.
+9. Dada uma string e um conjunto de substituições em mapa, aplique todas as substituições na string.
+10. Implemente um método que substitui placeholders `{0}`, `{1}`, `{2}` por valores fornecidos.
+
+---
+
+# 🚀 **10 Exercícios Avançados**
+
+1. Extraia todos os endereços de e-mail presentes em um texto.
+2. Conte quantas vezes cada palavra aparece em um texto e retorne o resultado em um mapa.
+3. Valide se um CPF está no formato `###.###.###-##`.
+4. Remova todos os acentos de uma string.
+5. Calcule a distância de Levenshtein entre duas strings.
+6. Quebre um texto longo inserindo quebras de linha sempre que ultrapassar um número máximo de caracteres sem quebrar palavras ao meio.
+7. Implemente um parser simples de CSV que reconhece campos entre aspas que podem conter vírgulas.
+8. Implemente um método que busca padrões com regex e substitui cada ocorrência usando uma função de callback.
+9. Transforme uma frase em um "slug" de URL (minúsculas, sem acentos, com hifens e sem caracteres especiais).
+10. Concatene eficientemente uma lista de milhares de strings e compare o tempo de execução usando `String` e `StringBuilder`.
