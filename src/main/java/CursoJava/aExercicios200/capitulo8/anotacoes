@@ -1,0 +1,4 @@
+Em Java, String é imutável(não pode ser alterada depois de criada)
+Toda a operação que parece "modificar" uma string na verdade cria uma nova String
+Por isso, se você vai fazer muitas alterações, use StringBuilder ou StringBuffer
+
