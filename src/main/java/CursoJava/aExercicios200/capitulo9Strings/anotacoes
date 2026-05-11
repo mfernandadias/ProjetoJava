@@ -1,0 +1,17 @@
+Strings é imutável
+Principais métodos de Strings
+
+startsWith() / endsWith()
+String nome = "Fernanda";
+
+ System.out.println(nome.startsWith("Fer")); // true
+ System.out.println(nome.endsWith("da"));    // true
+
+
+ indexOf() / lastIndexOf()
+ String t = "banana";
+
+ System.out.println(t.indexOf("a"));      // 1
+ System.out.println(t.lastIndexOf("a"));  // 5
+
+ replace() — substitui partes
