@@ -1,0 +1,39 @@
+Tipos primitivos vs Tipos Referencia
+Diferença entre:
+* int, double, char, boolean
+* Objetos (String, classes, arrays, listas)
+
+Como os dados ficam armazenados na memória
+Stack vs Heap
+int x = 10;
+Produto p = new Produto();
+
+2 - Comportamento de Memória
+* Variáveis locais
+* Referências de objetos
+Instanciação com new
+Gargabe Collector
+Referência nula(null)
+Pessoa p1 = new Pessoa();
+Pessoa p2 = p1;
+
+3 - Vetores (Arrays)
+Declaração de arrays
+Instanciação
+Tamanho fixo
+Acesso por índice
+Percorre arrays com for
+Exemplo
+int[] numeros = new int[5]
+
+4 - Entrada de Dados em Arrays
+Ler valores usando Scanner
+Preencher arrays com repetição
+
+Exemplo:
+Scanner sc = new Scanner(System.in);
+
+for(int i = 0; i < numeros.length; i++) {
+    numeros[i] = sc.nextInt();
+}
+
