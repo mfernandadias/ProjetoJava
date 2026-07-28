@@ -1,0 +1,81 @@
+O que é uma Estrutura Condicional?
+Uma estrutura condicional permite que o programa tome decisões
+Imagine que você está criando um sistema de banco
+
+Em português seria:
+
+Se acontecer uma condição, faça isso.
+Senão, faça outra coisa.
+
+Em Java usamos principalmente:
+
+if
+else
+else if
+switch
+
+Expressoes Comparativas
+São usadas para comparar valores
+Elas sempre retornam
+true(verdadeiro)
+false(falso)
+Operadores
+| Operador | Significado    | Exemplo         |
+| -------- | -------------- | --------------- |
+| >        | maior que      | 10 > 5 → true   |
+| <        | menor que      | 3 < 1 → false   |
+| >=       | maior ou igual | 7 >= 7 → true   |
+| <=       | menor ou igual | 5 <= 8 → true   |
+| ==       | igual          | 10 == 10 → true |
+| !=       | diferente      | 5 != 2 → true   |
+
+Cuidado com == e =
+
+Expressão Lógicas
+às vezes uma condição sozinha não basta
+- ser maior de 18
+- possuir convite
+São duas condições
+
+&&(E)
+Todas as condições precisam ser verdadeiras
+Tabela:
+| Condição 1 | Condição 2 | Resultado |
+| ---------- | ---------- | --------- |
+| true       | true       | true      |
+| true       | false      | false     |
+| false      | true       | false     |
+| false      | false      | false     |
+
+II(ou)
+Basta uma condição ser verdadeira
+Tabela
+| Condição 1 | Condição 2 | Resultado |
+| ---------- | ---------- | --------- |
+| true       | true       | true      |
+| true       | false      | true      |
+| false      | true       | true      |
+| false      | false      | false     |
+
+!(não)
+Inverte o valor
+
+O que faz o break?
+O break encerra o switch
+Sem ele, o programa continua executando os próximos case
+
+Exemplo
+int numero = 1;
+
+Resumo da Seção 4
+| Conteúdo                         | Para que serve                                                 |   |                                             |
+| -------------------------------- | -------------------------------------------------------------- | - | ------------------------------------------- |
+| `>`, `<`, `>=`, `<=`, `==`, `!=` | Comparar valores                                               |   |                                             |
+| `&&`                             | Todas as condições devem ser verdadeiras                       |   |                                             |
+| `                                |                                                                | ` | Pelo menos uma condição deve ser verdadeira |
+| `!`                              | Inverte o valor lógico                                         |   |                                             |
+| `if`                             | Executa um bloco se a condição for verdadeira                  |   |                                             |
+| `if...else`                      | Escolhe entre dois caminhos                                    |   |                                             |
+| `else if`                        | Permite várias decisões em sequência                           |   |                                             |
+| `+=`, `-=`, `*=`, `/=`, `%=`     | Atualiza uma variável de forma abreviada                       |   |                                             |
+| `switch`                         | Escolhe entre vários valores possíveis para uma mesma variável |   |                                             |
