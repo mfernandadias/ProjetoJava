@@ -1,0 +1,54 @@
+SEMANAS 3–4 — POO
+classes
+atributos
+métodos
+objetos
+this
+construtores
+sobrecarga
+encapsulamento
+modificadores de acesso
+static
+toString()
+
+Pessoa
+    ↓
+atributos: nome, idade
+métodos: falar(), andar()
+
+Carro
+
+Atributos:
+- marca
+- modelo
+- velocidade
+
+Métodos:
+- acelerar()
+- frear()
+- buzinar()
+
+this()
+O this significa:
+"este objeto"
+* É muito utilizado quando o parâmetro possui o mesmo nome do atributo
+
+protected
+public
+private
+
+stati significa que algo pertence à classe, e não a cada objeto individual
+Exemplo:
+public class Pessoa {
+
+    static int quantidade = 0;
+
+    public Pessoa() {
+        quantidade++;
+    }
+}
+
+toString()
+o toString() serve para definir como o objeto será representado em texto
+Pessoa pessoa = new Pessoa("Fernanda", 26);
+System.out.println(pessoa);
